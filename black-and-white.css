@@ -1,0 +1,27 @@
+.black-and-white-mode body
+{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.black-and-white-mode *::before,
+.black-and-white-mode *,
+.black-and-white-mode *::after
+{
+	color: #444 !important;
+	background-color: transparent !important;
+	border-color: transparent !important;
+
+	outline: none !important;
+	text-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.black-and-white-mode input[type="text"],
+.black-and-white-mode input[type="submit"],
+.black-and-white-mode input[type="button"],
+.black-and-white-mode input[type="image"],
+.black-and-white-mode button
+{
+	background: #f6f6f6 !important;
+}

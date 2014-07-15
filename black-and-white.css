@@ -1,6 +1,6 @@
 .black-and-white-mode body {
-	-webkit-filter: grayscale(100%) contrast(150%) !important;
-	filter: grayscale(100%) contrast(150%) !important;
+	-webkit-filter: grayscale(100%) contrast(133%) !important;
+	filter: grayscale(100%) contrast(133%) !important;
 }
 
 .black-and-white-mode *::before,

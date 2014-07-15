@@ -1,13 +1,12 @@
 .black-and-white-mode body {
-	-webkit-filter: grayscale(100%) !important;
-	filter: grayscale(100%) !important;
+	-webkit-filter: grayscale(100%) contrast(150%) !important;
+	filter: grayscale(100%) contrast(150%) !important;
 }
 
 .black-and-white-mode *::before,
 .black-and-white-mode *,
 .black-and-white-mode *::after {
-	color: #333 !important;
-	background: none !important;
+	background-color: transparent !important;
 	border-color: transparent !important;
 	outline: none !important;
 	text-shadow: none !important;
@@ -15,9 +14,22 @@
 }
 
 .black-and-white-mode input[type="text"],
+.black-and-white-mode input[type="search"],
 .black-and-white-mode input[type="submit"],
 .black-and-white-mode input[type="button"],
 .black-and-white-mode input[type="image"],
 .black-and-white-mode button {
-	background: #f6f6f6 !important;
+	background: #ccc !important;
+}
+
+.black-and-white-mode .black-and-white-mode-img *::before,
+.black-and-white-mode .black-and-white-mode-img *,
+.black-and-white-mode .black-and-white-mode-img *::after {
+	color: #333 !important;
+	background-image: none !important;
+}
+
+.black-and-white-mode .black-and-white-mode-img img,
+.black-and-white-mode .black-and-white-mode-img input[type="image"], {
+	visibility: hidden !important;
 }

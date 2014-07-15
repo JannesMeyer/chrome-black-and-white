@@ -49,6 +49,7 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 	activationList[tab.id] = entry;
 });
 
+// TODO: this is not compatible with history.pushState() yet
 // css needs to be re-injected after a reload
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo) {
 	if (changeInfo.status === 'loading') {

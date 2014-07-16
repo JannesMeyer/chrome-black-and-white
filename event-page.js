@@ -1,5 +1,3 @@
-var activationList = {};
-
 var states = {
 	active: {
 		icons: {
@@ -20,12 +18,6 @@ var states = {
 };
 
 function setActive(activate, tabId) {
-	if (!activationList[tabId].possibleToInject) {
-		return;
-	}
-
-	activationList[tabId].activated = activate;
-
 	var props = activate ? states.active : states.inactive;
 	chrome.browserAction.setIcon({ path: props.icons, tabId: tabId });
 	chrome.browserAction.setTitle({ title: props.title, tabId: tabId });
@@ -33,26 +25,17 @@ function setActive(activate, tabId) {
 }
 
 chrome.browserAction.onClicked.addListener(function(tab) {
-	var tabId = tab.id;
-	if (!activationList[tabId]) {
-		activationList[tabId] = { possibleToInject: true, activated: false };
-
-		chrome.tabs.insertCSS({ file: 'black-and-white.css', allFrames: true }, function() {
-			if (chrome.runtime.lastError) {
-				activationList[tabId].possibleToInject = false;
-			} else {
-				setActive(true, tabId);
-			}
-		});
-	} else {
-		setActive(!activationList[tabId].activated, tabId);
-	}
-});
-
-// TODO: this is not compatible with history.pushState() yet
-// css needs to be re-injected after a reload
-chrome.tabs.onUpdated.addListener(function(tabId, changeInfo) {
-	if (changeInfo.status === 'loading') {
-		delete activationList[tabId];
-	}
+	chrome.browserAction.getTitle({ tabId: tab.id }, function(title) {
+		if (title !== states.active.title) {
+			chrome.tabs.insertCSS({ file: 'black-and-white.css', allFrames: true }, function() {
+				if (chrome.runtime.lastError) {
+					alert('It is impossible to modify this page');
+					return;
+				}
+				setActive(true, tab.id);
+			});
+		} else {
+			setActive(false, tab.id);
+		}
+	});
 });

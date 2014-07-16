@@ -18,5 +18,5 @@
 		"scripts": ["event-page.js"],
 		"persistent": false
 	},
-	"permissions": [ "tabs", "activeTab" ]
+	"permissions": [ "activeTab" ]
 }

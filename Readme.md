@@ -6,19 +6,19 @@ Seeing a web page in such a rudimentary form helps you evaluate the information 
 
 ## Examples ##
 
-*nytimes.com*
+### nytimes.com ###
 
 ![Screenshot of The New York Times](https://cloud.githubusercontent.com/assets/704336/3599572/3ad2412e-0cf0-11e4-9578-8f738f3cbe87.png)
 
-*github.com*
+### github.com ###
 
 ![Screenshot of Github](https://cloud.githubusercontent.com/assets/704336/3599573/3af82ea2-0cf0-11e4-9f31-be226e12656d.png)
 
-*en.wikipedia.org*
+### en.wikipedia.org ###
 
 ![Screenshot of Wikipedia](https://cloud.githubusercontent.com/assets/704336/3599574/3b065d24-0cf0-11e4-94c9-bb551e9f4a75.png)
 
-*google.com*
+### google.com ###
 
 ![Screenshot of Google search results](https://cloud.githubusercontent.com/assets/704336/3599575/3b0eb258-0cf0-11e4-82d0-440812f05093.png)
 

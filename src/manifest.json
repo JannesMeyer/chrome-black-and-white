@@ -1,10 +1,12 @@
 ﻿{
 	"manifest_version": 2,
 	"name": "Black and White",
+	"short_name": "B/W",
 	"version": "1.0",
-	"description": "Turns black and white vision on.",
-
+	"description": "Turns black and white vision on",
+	"homepage_url": "https://github.com/JannesMeyer/chrome-black-and-white",
 	"icons": {
+		"48": "icon-bw-48.png",
 		"128": "icon-bw-128.png"
 	},
 	"browser_action": {

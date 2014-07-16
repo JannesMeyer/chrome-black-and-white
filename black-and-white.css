@@ -6,6 +6,7 @@
 .black-and-white-mode *::before,
 .black-and-white-mode *,
 .black-and-white-mode *::after {
+	color: #333 !important;
 	background-color: transparent !important;
 	border-color: transparent !important;
 	outline: none !important;
@@ -25,7 +26,6 @@
 .black-and-white-mode .black-and-white-mode-img *::before,
 .black-and-white-mode .black-and-white-mode-img *,
 .black-and-white-mode .black-and-white-mode-img *::after {
-	color: #333 !important;
 	background-image: none !important;
 }
 

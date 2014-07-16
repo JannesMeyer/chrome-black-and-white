@@ -8,19 +8,19 @@ Seeing a web page in such a rudimentary form helps you evaluate the information 
 
 *nytimes.com*
 
-![Screenshot of The New York Times](https://cloud.githubusercontent.com/assets/704336/3599061/b7298be8-0cea-11e4-92ea-4af92b284ac6.png)
+![Screenshot of The New York Times](https://cloud.githubusercontent.com/assets/704336/3599506/6100996e-0cef-11e4-865f-5deee0fb80e9.png)
 
 *github.com*
 
-![Screenshot of Github](https://cloud.githubusercontent.com/assets/704336/3599062/b730f540-0cea-11e4-8626-3966f01b1131.png)
+![Screenshot of Github](https://cloud.githubusercontent.com/assets/704336/3599212/266bab5c-0cec-11e4-9b4b-e462f187806f.png)
 
 *en.wikipedia.org*
 
-![Screenshot of Wikipedia](https://cloud.githubusercontent.com/assets/704336/3599063/b739f0d2-0cea-11e4-80ce-31b17bec2c78.png)
+![Screenshot of Wikipedia](https://cloud.githubusercontent.com/assets/704336/3599213/267cae66-0cec-11e4-9891-7a9c226668aa.png)
 
 *google.com*
 
-![Screenshot of Google search results](https://cloud.githubusercontent.com/assets/704336/3599064/b7400efe-0cea-11e4-9a41-34b30ccc2183.png)
+![Screenshot of Google search results](https://cloud.githubusercontent.com/assets/704336/3599214/2683fc16-0cec-11e4-8cdf-e5372723db22.png)
 
 ## Installation ##
 

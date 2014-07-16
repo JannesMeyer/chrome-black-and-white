@@ -3,16 +3,16 @@ var activationList = {};
 var states = {
 	active: {
 		icons: {
-			'19': 'icon-bw-19.png',
-			'38': 'icon-bw-38.png'
+			'19': 'icon-color-19.png',
+			'38': 'icon-color-38.png'
 		},
-		title: 'Turn color mode on',
+		title: 'Turn black and white mode off',
 		code: 'document.documentElement.classList.add("black-and-white-mode")'
 	},
 	inactive: {
 		icons: {
-			'19': 'icon-color-19.png',
-			'38': 'icon-color-38.png'
+			'19': 'icon-bw-19.png',
+			'38': 'icon-bw-38.png'
 		},
 		title: 'Turn black and white mode on',
 		code: 'document.documentElement.classList.remove("black-and-white-mode")'

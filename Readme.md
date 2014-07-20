@@ -28,4 +28,4 @@ Get the extension from the [Releases section](https://github.com/JannesMeyer/chr
 
 ## License ##
 
-GPLv3
+[GPLv3](http://www.gnu.org/licenses/gpl-3.0.txt)
